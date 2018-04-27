@@ -1,0 +1,65 @@
+/*#tweets_container{*/
+article.tweet{
+border-radius: 10px 10px;
+border-color: #DCDCDC;
+border-style: solid;
+margin-top: 1em;
+}
+
+article.tweet header{
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+  background-color: #F5F5F5;
+  padding: 0.5em;
+  width: 100%;
+}
+
+article.tweet .tweet-logo{
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  width: 40px;
+}
+
+article.tweet .my-name {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0.5em;
+}
+
+article.tweet .handle{
+  display: inline-block;
+  float: right;
+}
+
+#tweets_container article p{
+  padding: 0.5em;
+}
+
+article footer{
+  padding: 1em;
+  width: 100%;
+  border-top: solid;
+  border-color: #F5F5F5;
+}
+
+article.tweet footer .tweet-action{
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  float: right;
+  color: #00a087;
+}
+
+article.tweet footer .tweet-action{
+  display:none;
+}
+
+article:hover footer .tweet-action{
+  display:inline;
+}
+
+article:hover{
+  border-color: #000000;
+}
