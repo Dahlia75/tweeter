@@ -11,11 +11,6 @@ html {
   box-sizing: inherit;
 }
 
-/*
-* {
-  box-sizing: border-box;
-}*/
-
 html, body {
   height: 100%;
   margin: 0;
@@ -32,17 +27,13 @@ body {
   font: 'Roboto Condensed', sans-serif;
 }
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
-
 
 main {
   margin: 0 auto;
   width: 450px;
   background-color: #FFFFFF;
   align-content: center;
-  padding: 140px 2em 2em 2em;
+  padding: 100px 2em 2em 2em;
 }
 
 section {

@@ -15,8 +15,7 @@ module.exports = function(DataHelpers) {
         res.json(tweets);
       }
     });
-  });
-
+  })
   tweetsRoutes.post("/", function(req, res) {
     if (!req.body.text) {
       res.status(400).json({ error: 'invalid request: no data in POST body'});

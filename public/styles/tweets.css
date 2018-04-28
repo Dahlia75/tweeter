@@ -1,9 +1,10 @@
-/*#tweets_container{*/
+/* CSS styling for tweets boxes */
+
 article.tweet{
 border-radius: 10px 10px;
 border-color: #DCDCDC;
 border-style: solid;
-margin-top: 1em;
+margin-bottom: 3%;
 }
 
 article.tweet header{
@@ -17,6 +18,7 @@ article.tweet header{
 article.tweet .tweet-logo{
   display: inline-block;
   vertical-align: middle;
+  border-radius: 10px 10px;
   height: 40px;
   width: 40px;
 }
@@ -50,9 +52,6 @@ article.tweet footer .tweet-action{
   width: 20px;
   float: right;
   color: #00a087;
-}
-
-article.tweet footer .tweet-action{
   display:none;
 }
 

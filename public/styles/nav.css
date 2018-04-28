@@ -1,3 +1,4 @@
+/* CSS for navigation bar */
 .topnav {
     background-color: #00a087;
     color: #e8fdff;
@@ -7,7 +8,6 @@
     top: 0;
     left: 0;
     right: 0;
-    /*vertical-align: middle*/
 }
 
 #nav-bar .logo{
@@ -25,16 +25,15 @@
 #nav-bar .compose{
     background-color: #E0FFFF;
     color: #00a087;
-    /*display: inline-block;*/
+    margin-top: 1%;
     vertical-align: middle;
-    height: 70px;
-    width: 150px;
+    height: 60px;
+    width: 140px;
     float: right;
     border-radius: 10px 10px;
     border-color: #000000;
     border-style: solid;
     font-size: 1.5em;
-    /*margin-top: 1em;*/
 }
 
 #nav-bar button.compose:hover {
