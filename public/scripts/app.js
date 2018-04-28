@@ -42,13 +42,6 @@ $('document').ready(function(ev){
     escape(tweetData.content.text) + '</p><footer><span class="date">' + timeP +
     '</span><i class=" tweet-action fas fa-heart"></i><i class=" tweet-action fas fa-retweet"></i><i class=" tweet-action fas fa-flag"></i></footer></article>');
     return $tweet;
-
-    // $tweet = $('<article>');
-
-    // $body = $('<p>');
-    // $body.text(tweetData.content.text);
-
-    // $tweet.append($body);
   }
 
   function renderTweets(tweets) {
