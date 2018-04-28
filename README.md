@@ -25,8 +25,8 @@ This repository is the starter code for the project to practice the HTML, CSS, J
 
 ## Final Product
 
-!["Screenshot of Tweets boxes Page"]()
+!["Screenshot of Tweets boxes Page"](tweeter/docs/tweets-boxes.png)
 
-!["Screenshot of Compose box"]()
+!["Screenshot of Compose box"](tweeter/docs/Compose-box.png)
 
-!["Screenshot of tweet box with hover"]()
+!["Screenshot of tweet box with hover"](tweeter/docs/hover-tweet-box.png)
